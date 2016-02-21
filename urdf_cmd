@@ -7,3 +7,17 @@ location: urdf/01-myfirst.urdf
 run this command:
 
 roslaunch urdf_tutorial display.launch model:=urdf/01-myfirst.urdf
+
+------------------------------------------------------------------------------------------------
+
+another example for (inmoov_ros-master) (robbie_description)
+
+go to the "robbie_description" directory and run this command
+
+roslaunch urdf_tutorial display.launch model:=urdf/rob_inmoov.urdf
+
+note:
+This command will run the robbie urdf file in rviz but it is missing some of the packages in "robbie_description"
+As a result, some of the RobotModel will not appear in rviz "search and fix this error"
+
+Possible fix: add the missing packages by redirecting the location to be read from

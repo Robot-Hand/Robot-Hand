@@ -1,4 +1,2 @@
 # Robot-Hand
-Robot Arm Visual Feedback
-
-Arm Kinematics with real-time depth vision feedback
+These are the updated .stl files in Binary .stl format instead of ASCII .stl format. rviz doesn't like ASCII.
